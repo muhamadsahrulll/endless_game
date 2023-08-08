@@ -9,4 +9,9 @@ public class play : MonoBehaviour
     {
         SceneManager.LoadScene("ingame");
     }
+
+    public void Quit()
+    {
+        SceneManager.LoadScene("mainmenu");
+    }
 }
